@@ -174,7 +174,7 @@ footer {
 }
 
 .header {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -198,8 +198,8 @@ footer {
 }
 
 .navbar {
-  position: sticky;
-  top: -100px; /* Adjust this value as needed */
+  position: fixed;
+  top: 0; /* Adjust this value as needed */
   left: 0;
   width: 100%;
   background-color: #1f2329;
@@ -208,11 +208,6 @@ footer {
   padding-top: 10px;
   transition: transform 0.3s ease-in-out;
   z-index: 1000;
-}
-
-.navbar.active {
-  visibility: visible;
-  transform: translateX(300px);
 }
 
 .navbar-top {
