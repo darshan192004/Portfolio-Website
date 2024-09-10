@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/logo.svg" />
+    <link rel="icon" type="image/png" href="./assets/images/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Darshan - Front End Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link rel="preload" as="image" href="./assets/images/profile_img.JPG" />
+    <link rel="preload" as="image" href="./assets/image/image-mask.svg" />
+  </head>
+  <body class="black">
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">Darshan</a>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="/" class="logo">Darshan</a>
+            <button class="navbar-close-btn" data-nav-toggler>
+              <i class="fa fa-window-close" style="color: #fdff00"></i>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link">About</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link">Projects</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+          <div class="theme-wrapper">
+            <button id="theme-btn" class="btn theme">Change Theme</button>
+          </div>
+        </nav>
+        <button class="nav-open-btn" data-nav-toggler>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+    <main>
+      <article>
+        <section class="section hero">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 title">Hi, I'm Darshan.Front End Web Developer.</h1>
+              <p class="section-text">
+                Hello! I'm Darshan, a front end web developer & Student of CSE.
+                I'm very passionate about the work that I do.
+              </p>
+              <div class="social-icons-wrapper">
+                <a href="https://www.linkedin.com/in/darshan-parmar-a05a49289/"><i style="color: #f3b500" class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/darshan192004"><i style="color: #ea07b9" class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/darshan192004"><i style="color: #02e9cf" class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/darshan__parmar_/"><i style="color: #ef7816" class="fa fa-brands fa-instagram"></i>></i></a>
+              </div>
+              <div class="btn-wrapper">
+                <button class="btn">
+                  <a href="#projects">See My Works</a>
+                </button>
+                <button class="btn"><a href="#contact">Contact Me</a></button>
+              </div>
+            </div>
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/profile.png"
+                width="560"
+                height="560"
+                alt="Darshan"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+        <div class="divider"></div>
+        <section class="section about">
+          <div class="container">
+            <div class="wrapper">
+              <div class="left">
+                <h2 class="h2 section-title">My Skills</h2>
+                <p class="section-text">
+                  I’m a passionate web developer with a focus on creating
+                  dynamic and responsive websites using JavaScript and React.
+                  Currently expanding my knowledge in backend development to
+                  build full-stack solutions, I’m also eager to dive into the
+                  field of cybersecurity.
+                </p>
+              </div>
+              <ul class="progress-list">
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>Frontend Development</p>
+                    <span class="span">90 %</span>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 90%; background-color: #f3b500"
+                    ></div>
+                  </div>
+                </li>
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>Mobile App Development</p>
+                    <span class="span">40 %</span>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 40%; background-color: #ea07b9"
+                    ></div>
+                  </div>
+                </li>
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>Backend Development</p>
+                    <span class="span">65 %</span>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 65%; background-color: #02e9cf"
+                    ></div>
+                  </div>
+                </li>
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>Video Editing</p>
+                    <span class="span">90 %</span>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 90%; background-color: #ef7816"
+                    ></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <ul class="grid-list">
+              <li>
+                <div class="about-card">
+                  <div class="card-icon">
+                    <i style="color: #f3b500" class="fa-solid fa-code"></i>
+                  </div>
+                  <h3 class="h4 card-title">Web Design</h3>
+                  <p class="card-text">
+                    I specialize in creating responsive web products that adapt
+                    seamless design to different devices and screen sizes. Using
+                    modern front-end technologies like Tailwind CSS it make
+                    easier.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="about-card">
+                  <div class="card-icon">
+                    <i style="color: #ea07b9" class="fa-solid fa-database"></i>
+                  </div>
+                  <h3 class="h4 card-title">Web Design</h3>
+                  <p class="card-text">
+                    I am currently exploring backend development to complement
+                    my frontend skills. I'm focusing on server-side
+                    technologies, databases, and frontend applications to build
+                    full-stack solutions.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="about-card">
+                  <div class="card-icon">
+                    <i style="color: #02e9cf" class="fa-solid fa-file-code"></i>
+                  </div>
+                  <h3 class="h4 card-title">Web Design</h3>
+                  <p class="card-text">
+                    I develop web applications using React and JavaScript,
+                    focusing on building dynamic and responsive user interfaces.
+                    My expertise in these technologies allows me to create
+                    seamless experiences.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="about-card">
+                  <div class="card-icon">
+                    <i style="color: #ef7816" class="fa-brands fa-codepen"></i>
+                  </div>
+                  <h3 class="h4 card-title">Web Design</h3>
+                  <p class="card-text">
+                    I implement 3D objects in my projects to create visually
+                    engaging and interactive experiences. Alongside I focus on
+                    aesthetically pleasing website designs that are both modern
+                    and user-friendly.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="divider"></div>
+
+        <section class="section project" id="projects">
+          <div class="container">
+            <div class="title-wrapper">
+              <div>
+                <h2 class="h2 section-title">Latest Projects</h2>
+                <p class="section-text">
+                  Check out some of my latest projects.
+                </p>
+              </div>
+              <button class="btn">See All Projects</button>
+            </div>
+            <ul class="grid-list">
+              <li>
+                <div class="project-card project-card-one">
+                  <div class="card-content">
+                    <p class="card-type">Game Using JS</p>
+                    <h3 class="h3 card-title">Tic-Tac-Toe</h3>
+                    <p class="card-text">
+                      I created a Tic-Tac-Toe game using HTML, CSS, and
+                      JavaScript that provides a simple yet engaging user
+                      experience. The game features a clean and responsive
+                      design, built with CSS for layout and styling. The
+                      JavaScript code handles the game logic, including
+                      alternating turns between players, checking for win
+                      conditions, and detecting draws. The game highlights the
+                      winning combination or notifies when there's a tie.
+                    </p>
+                    <a href="#" class="btn-text" style="color: #a07cc5"
+                      ><span class="span">See Project</span></a
+                    >
+                  </div>
+                  <figure class="card-banner">
+                    <a href="https://darshan192004.github.io/Tic_tac_toe-game/ttt.html">
+                    <img
+                      src="./assets/images/ttt.png"
+                      width="650"
+                      height="370"
+                      alt="Web-Design"
+                      class="w-100"
+                    />
+                  </a>
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div class="project-card project-card-two">
+                  <div class="card-content">
+                    <p class="card-type">Game Using JS</p>
+                    <h3 class="h3 card-title">Rock Paper Scissor</h3>
+                    <p class="card-text">
+                      I developed a Rock-Paper-Scissors game using HTML, CSS,
+                      and JavaScript that offers an interactive and fun
+                      experience. The user-friendly interface is styled with a
+                      responsive design. The JavaScript code manages the game
+                      mechanics, allowing players to choose between rock, paper,
+                      or scissors and face off against the computer's random
+                      choice. The game instantly displays the result, indicating
+                      whether the player wins, loses, or ties.
+                    </p>
+                    <a href="#" class="btn-text" style="color: #3f78e0"
+                      ><span class="span">See Project</span></a
+                    >
+                  </div>
+                  <figure class="card-banner">
+                    <a href="https://darshan192004.github.io/Rock-Paper-Scissor/rps.html">
+                    <img
+                      src="./assets/images/rps.png"
+                      width="650"
+                      height="370"
+                      alt="Web-Design"
+                      class="w-100"
+                    />
+                  </a>
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div class="project-card project-card-one">
+                  <div class="card-content">
+                    <p class="card-type">3D Website</p>
+                    <h3 class="h3 card-title">Personal Porfolio</h3>
+                    <p class="card-text">
+                      I built a portfolio website using React, Tailwind CSS, and
+                      the Three.js library to showcase my projects and skills.
+                      The website features a clean, modern design with
+                      responsive layouts powered by Tailwind CSS. I used
+                      Three.js to implement interactive 3D objects, enhancing
+                      the site's visual appeal and user engagement. The website
+                      offers smooth navigation and a professional presentation,
+                      providing a dynamic experience across various devices and
+                      screen sizes.
+                    </p>
+                    <a href="#" class="btn-text" style="color: #7cb798"
+                      ><span class="span">See Project</span></a
+                    >
+                  </div>
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/pw3d.png"
+                      width="650"
+                      height="370"
+                      alt="Web-Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+              <!-- <li>
+                <div class="project-card project-card-three">
+                  <div class="card-content">
+                    <p class="card-type">3D Website</p>
+                    <h3 class="h3 card-title">Personal Porfolio</h3>
+                    <p class="card-text">
+                      I built a portfolio website using React, Tailwind CSS, and
+                      the Three.js library to showcase my projects and skills.
+                      The website features a clean, modern design with
+                      responsive layouts powered by Tailwind CSS. I used
+                      Three.js to implement interactive 3D objects, enhancing
+                      the site's visual appeal and user engagement. The website
+                      offers smooth navigation and a professional presentation,
+                      providing a dynamic experience across various devices and
+                      screen sizes.
+                    </p>
+                    <a href="#" class="btn-text" style="color: #7cb798"
+                      ><span class="span">See Project</span></a
+                    >
+                  </div>
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/project-3.png"
+                      width="650"
+                      height="370"
+                      alt="Web-Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </section>
+        <div class="divider"></div>
+
+        <section class="section contact" id="contact">
+          <div class="container">
+            <div class="contact-card">
+              <div class="contact-content">
+                <div class="card-icon">
+                  <i style="font-size: 50px" class="fa-solid fa-envelope"></i>
+                </div>
+                <h2 class="h2 section-title">Let's Connect and Explore.</h2>
+                <p class="section-text">
+                  You can contact me through the form on my portfolio website or
+                  reach out to me via email for any inquiries or collaborations.
+                  I'm always open to discussing new projects and opportunities.
+                </p>
+              </div>
+
+              <form action="https://formspree.io/f/xqazjogy" method="POST" class="contact-form">
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name *"
+                    required
+                    class="input-field"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email *"
+                    required
+                    class="input-field"
+                  />
+                </div>
+                <textarea
+                  name="message"
+                  placeholder="Message *"
+                  required
+                  class="input-field"
+                ></textarea>
+                <button type="submit" class="btn">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <div class="divider"></div>
+
+        <footer class="footer">
+          <div class="container">
+            <div class="footer-inner-container">
+              <p class="copyright">© 2024 Darsahan. All rights reserved.</p>
+              <ul class="social-icons-wrapper">
+                <li>
+                  <a href="https://www.linkedin.com/in/darshan-parmar-a05a49289/"><i style="color: #f3b500" class="fa-brands fa-linkedin"></i></a>
+                  
+                </li>
+                <li>
+                  <a href="https://x.com/darshan192004"><i style="color: #ea07b9" class="fa-brands fa-twitter"></i></a>
+                  
+                </li>
+                <li>
+                  <a href="https://github.com/darshan192004"><i style="color: #02e9cf" class="fa-brands fa-github"></i></a>
+                  
+                </li>
+                <li>
+                <a href="https://www.instagram.com/darshan__parmar_/"><i style="color: #ef7816" class="fa fa-brands fa-instagram"></i>></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </article>
+    </main>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
